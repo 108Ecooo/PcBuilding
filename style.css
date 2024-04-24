@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://i.postimg.cc/brBZYqbx/image.jpg');
+    background-image: url('your-background-image.jpg');
     color: black;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -21,24 +21,28 @@ h1 {
     text-align: center;
     line-height: 50px;
     font-size: 20px;
+    color: white;
 }
 
 .social-link:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .social-link-telegram {
     background-color: #0088cc;
-    color: white;
 }
 
 .social-link-whatsapp {
     background-color: #25d366;
-    color: white;
 }
 
 .social-link-instagram {
     background-color: #ac2bac;
-    color: white;
+}
+
+.button-text {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
 }
